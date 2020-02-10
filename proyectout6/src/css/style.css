@@ -1,0 +1,33 @@
+.App {
+  padding: 20px 10px;
+}
+
+a {
+  padding: 5px;
+}
+a[target] {
+  background-color: red;
+}
+a[target=_blank] {
+  background-color: lightblue;
+}
+a[target=_self] {
+  background-color: lightgreen;
+}
+
+img[alt~=K2] {
+  border: 5px solid black;
+}
+
+input[type=text] {
+  padding: 10px;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+input[type=text]:focus {
+  outline: 0;
+  border-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
